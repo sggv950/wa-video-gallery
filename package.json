@@ -1,0 +1,17 @@
+{
+  "name": "wix-answers-video-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass css/main.scss css/main.css --watch",
+    "build": "babel js -d build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {}
+}

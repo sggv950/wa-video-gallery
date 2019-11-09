@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/66cb5296bf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Video Gallery</title>
+  </head>
+  <body onload="init()">
+    <nav class="nav-bar">
+      <div class="logo">
+        <img src="./assets/logo.png" />
+      </div>
+      <ul class="nav-links-list">
+        <li>Products</li>
+        <li>Features</li>
+        <li>Demo</li>
+        <li>Resources</li>
+        <li>Blog</li>
+        <li>Customers</li>
+      </ul>
+    </nav>
+
+    <div id="myModal" class="modal" onclick="closeVideoModal(event)">
+      <div class="watch-video-modal"></div>
+      <div class="edit-video-modal"></div>
+    </div>
+
+    <div class="gallery-container">
+      <h1 class="gallery-container-title">Video Gallery</h1>
+      <ul class="gallery-list"></ul>
+    </div>
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-section"><img src="./assets/logo.png" /></div>
+        <div class="footer-section">
+          <ul>
+            <li><strong>Products</strong></li>
+            <li>Knowledge Base</li>
+            <li>Ticketing System</li>
+            <li>Call Center</li>
+            <li>Live Chat</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <ul>
+            <li><strong>Resources</strong></li>
+            <li>Features</li>
+            <li>Get Support</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <ul>
+            <li><strong>Company</strong></li>
+            <li>Blog</li>
+            <li>Features</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <p>
+            Get Wix Answers, the help desk software that makes it easy to
+            support your customers. Wix Answers comes with live chat, a help
+            center, ticketing system, and built-in call center. With our easy to
+            use customer support software, you’ll have all the tools you need to
+            support your customers and your business.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="./js/utils.js"></script>
+    <script src="./js/videosService.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
