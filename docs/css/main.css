@@ -48,7 +48,9 @@ body {
 
 .close-modal-btn {
   cursor: pointer;
-  float: right; }
+  float: right;
+  font-size: 30px;
+  margin: 0; }
 
 .video-edit-form {
   width: 100%;

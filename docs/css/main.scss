@@ -58,6 +58,8 @@ body {
 .close-modal-btn {
   cursor: pointer;
   float: right;
+  font-size: 30px;
+  margin: 0;
 }
 
 .video-edit-form {
@@ -65,7 +67,7 @@ body {
   height: 50vh;
 }
 
-.video-edit-form-section{
+.video-edit-form-section {
   width: 80%;
   margin: 30px auto;
 }
@@ -182,7 +184,7 @@ body {
     list-style: none;
     display: flex;
     flex-direction: column;
-    li{
+    li {
       margin-bottom: 10px;
     }
   }

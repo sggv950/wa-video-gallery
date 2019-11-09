@@ -34,7 +34,7 @@ function handleWatchVideo(videoId) {
   var elModal = document.querySelector(".modal");
   var elVideoModal = document.querySelector(".watch-video-modal");
   var strHtml = `
-    <span><p class="close-modal-btn">&times</p></span> 
+    <span><p class="close-modal-btn">&times;</p></span> 
     <div>
     <h2>${videoData.title}</h2>
     <iframe width="560" height="315" src=${videoData.url} allowfullscreen></iframe>
@@ -63,7 +63,7 @@ function handleVEditVideo(event, id = 0) {
   var elModal = document.querySelector(".modal");
   var elVideoModal = document.querySelector(".edit-video-modal");
   var strHtml = `
-  <span><i class="fas fa-times fa-2x close-modal-btn"></i></span>
+  <span><p class="close-modal-btn">&times;</p></span>
   <div class="video-edit-form">
   <h2>Edit Video</h2>
     <div class="video-edit-form-section">

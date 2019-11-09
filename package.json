@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass css/main.scss css/main.css --watch",
+    "sass": "node-sass docs/css/main.scss docs/css/main.css --watch",
     "build": "babel js -d build --watch"
   },
   "keywords": [],
