@@ -34,7 +34,7 @@ function handleWatchVideo(videoId) {
   var elModal = document.querySelector(".modal");
   var elVideoModal = document.querySelector(".watch-video-modal");
   var strHtml = `
-    <span><i class="fas fa-times fa-2x close-modal-btn"></i></span> 
+    <span><p class="close-modal-btn">&times</p></span> 
     <div>
     <h2>${videoData.title}</h2>
     <iframe width="560" height="315" src=${videoData.url} allowfullscreen></iframe>
